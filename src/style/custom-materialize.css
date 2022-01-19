@@ -1,0 +1,58 @@
+.card > img {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card .card-content {
+  padding: 5px !important;
+}
+
+.btn-floating i {
+  font-size: 0.75rem !important;
+}
+
+.card .card-title {
+  font-size: 18px !important;
+  text-align: center;
+  font-weight: bold !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #d65755f0 !important;
+}
+
+.card-image img {
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+li.active {
+  background-color: #d65755f0 !important;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: #d65755f0 !important;
+  color: white;
+}
+
+.tabs .tab a {
+  font-weight: bold !important;
+}
+
+/* Desktop Or Laptop */
+
+@media only screen and (min-width: 992px) {
+  .card > img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .card .card-content {
+    padding: 10px !important;
+  }
+}

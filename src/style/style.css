@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+@import "appbar.css";
+@import "banner.css";
+@import "category.css";
+@import "quote.css";
+@import "custom-materialize.css";
+@import "list-detail.css";
+@import "item-detail.css";
+
+html,
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+main {
+  margin: 0;
+  padding: 25px;
+}
+
+main h1 {
+  font-family: "Cambria", "Cochin", "Georgia", "Times New Roman", serif;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+p {
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+
+.show-more {
+  display: none;
+  cursor: pointer;
+}
+
+app-footer {
+  display: block;
+}
+
+iframe {
+  width: 100%;
+  height: 245px;
+}
+
+h6 {
+  display: none;
+}
+
+nav {
+  background-color: #ef5350 !important;
+}
+
+#categoryList,
+#areaList,
+#ingredientList,
+#detailList,
+#result {
+  cursor: pointer;
+}
+.wrapper {
+  min-height: 80%;
+}
+
+.pagination {
+  display: none;
+}
+
+@media only screen and (min-width: 500px) {
+  main h1 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main {
+    padding: 30px 100px;
+  }
+
+  main h1 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+/* EXTRA LARGE SCREEN */
+@media only screen and (min-width: 1200px) {
+  main {
+    padding: 30px 200px;
+  }
+}
+

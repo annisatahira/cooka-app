@@ -1,0 +1,42 @@
+figure {
+  padding: 0;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+figure img {
+  object-position: center;
+  margin: 0 auto;
+  height: 100px;
+}
+
+figcaption {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+category-item {
+  cursor: pointer;
+  outline: 0;
+}
+
+#categoryList {
+  margin: 40px;
+}
+
+@media only screen and (min-width: 992px) {
+  figcaption {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  figure img {
+    height: 70px;
+    object-position: center;
+    margin: 0 auto;
+  }
+}

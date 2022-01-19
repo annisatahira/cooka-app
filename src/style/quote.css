@@ -1,0 +1,28 @@
+#quoteList {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+#quoteTitle h1 {
+  padding:0;
+  padding-top:25px;
+  margin:0;
+}
+
+#quote #quoteTitle {
+  text-align: center;
+  margin:0;
+}
+
+quote-item {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+quote-item p {
+  padding: 25px;
+  text-align: center;
+}
